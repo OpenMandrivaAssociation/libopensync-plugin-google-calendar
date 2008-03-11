@@ -1,6 +1,6 @@
 %define name	libopensync-plugin-google-calendar
 %define version	0.36
-%define release %mkrel 1
+%define release %mkrel 2
 
 Name: 	 	%{name}
 Version: 	%{version}
@@ -12,6 +12,7 @@ URL:		http://www.opensync.org
 Source:		http://www.opensync.org/download/releases/%{version}/%{name}-%{version}.tar.bz2
 BuildRequires:	opensync-devel >= 0.20
 BuildRequires:	cmake
+Requires:	python-httplib2
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
