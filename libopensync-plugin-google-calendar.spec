@@ -22,6 +22,7 @@ URL:		http://www.opensync.org
 # svn co http://svn.opensync.org/branches/branch-0.2X/plugins/google-calendar libopensync-plugin-google-calendar
 Source0:	http://www.opensync.org/download/releases/%{distname}
 BuildRequires:	libopensync-devel < 0.30
+BuildRequires:	python-httplib2
 Requires:	python-httplib2
 Requires:	libopensync >= %{epoch}:0.22
 BuildRoot:	%{_tmppath}/%{name}-%{version}
