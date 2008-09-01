@@ -1,5 +1,5 @@
 %define svn	3218
-%define rel	1
+%define rel	2
 %if %svn
 %define release		%mkrel 0.%svn.%rel
 %define distname	%name-%svn.tar.lzma
@@ -24,6 +24,7 @@ Source0:	http://www.opensync.org/download/releases/%{distname}
 BuildRequires:	libopensync-devel < 0.30
 BuildRequires:	python-httplib2
 Requires:	python-httplib2
+Requires:	python-pyxml
 Requires:	libopensync >= %{epoch}:0.22
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
