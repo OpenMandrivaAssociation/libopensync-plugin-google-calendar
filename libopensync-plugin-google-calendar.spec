@@ -58,3 +58,35 @@ rm -rf %{buildroot}
 %{_datadir}/opensync/defaults/*
 %{_libdir}/opensync/google-cal-helper
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 1:0.22.1-0.3218.4mdv2011.0
++ Revision: 620171
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 1:0.22.1-0.3218.3mdv2010.0
++ Revision: 429819
+- rebuild
+
+* Mon Sep 01 2008 Austin Acton <austin@mandriva.org> 1:0.22.1-0.3218.2mdv2009.0
++ Revision: 278713
+- requires python-pyxml
+
+* Thu Mar 13 2008 Adam Williamson <awilliamson@mandriva.org> 1:0.22.1-0.3218.1mdv2008.1
++ Revision: 187331
+- buildrequires python-httplib2
+- some cleanups
+- revert to 0.22 based on latest 0.22 spec in SVN: use upstream SVN snapshot from 0.2 branch as it has stable important fixes since 0.22 release
+
+* Wed Mar 12 2008 Adam Williamson <awilliamson@mandriva.org> 0.36-2mdv2008.1
++ Revision: 186996
+- requires python-httplib2
+
+* Thu Feb 28 2008 Guillaume Rousse <guillomovitch@mandriva.org> 0.36-1mdv2008.1
++ Revision: 175986
+- import libopensync-plugin-google-calendar
+
+
+* Thu Feb 28 2008 Guillaume Rousse <guillomovitch@mandriva.org> 0.36-1mdv2008.1
+- first mdv release 
