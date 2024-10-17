@@ -7,7 +7,7 @@ Epoch:		1
 Release:	0.%{svn}.5
 License:	GPLv2+
 Group:		Office
-Url:		http://www.opensync.org
+Url:		https://www.opensync.org
 # For SVN:
 # svn co http://svn.opensync.org/branches/branch-0.2X/plugins/google-calendar libopensync-plugin-google-calendar
 Source0:	http://www.opensync.org/download/releases/%{name}-%{svn}.tar.lzma
